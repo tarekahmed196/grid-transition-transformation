@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            margin: 10px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(rgba(41, 4, 4, 0.096), green, blue, alpha);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) rotate(360deg);
+            /* transform: scale(1.5) skew(-30deg); */
+            transition: transform 1.5s ease-in-out;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+
+        .photo-detail p {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> Tiger photo album</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div id="skew" class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt consectetur molestiae, eaque
+                        explicabo officia corrupti eveniet rem amet voluptas laboriosam dolores similique labore, hic
+                        maiores esse, voluptatum sapiente cum ratione?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
